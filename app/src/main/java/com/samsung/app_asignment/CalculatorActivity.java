@@ -47,15 +47,16 @@ public class CalculatorActivity extends AppCompatActivity {
     private char ACTION;
     private double val1 = Double.NaN;
     private double val2;
-
+    private String user="";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calculator);
         viewSetup();
         Bundle extras = getIntent().getExtras();
-        if (extras != null) {
 
+        if (extras != null) {
+            user=extras.getString("user");
             String value = "Hello " +extras.getString("user") + " !";
             setTitle(value);
         }
@@ -432,7 +433,7 @@ public class CalculatorActivity extends AppCompatActivity {
             case R.id.Music:
 
                 Intent intent  = new Intent(getApplicationContext(), MusicPlayer.class);
-
+                intent.putExtra("user",user);
                 startActivity(intent);
         }
 
