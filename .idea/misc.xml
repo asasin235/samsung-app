@@ -3,8 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/arithmatic_button.xml" value="0.2485" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2485" />
+        <entry key="app/src/main/res/layout/activity_calculator.xml" value="0.20516304347826086" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/activity_test.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/layout/content_test.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.9638297872340426" />
       </map>
     </option>
   </component>
