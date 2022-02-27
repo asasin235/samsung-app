@@ -2,13 +2,17 @@ package com.samsung.app_asignment;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import android.os.Bundle;
 import android.util.TypedValue;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class CalculatorActivity extends AppCompatActivity {
 
@@ -410,5 +414,28 @@ public class CalculatorActivity extends AppCompatActivity {
         if (t1.getText().toString().length() > 10) {
             t1.setTextSize(TypedValue.COMPLEX_UNIT_SP, 20);
         }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu){
+        getMenuInflater().inflate(R.menu.mymenu,menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item){
+        int id=item.getItemId();
+        switch (id){
+            case R.id.Calc:
+                Toast.makeText(this,"Already in Calculator",Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.Music:
+
+                Intent intent  = new Intent(getApplicationContext(), MusicPlayer.class);
+
+                startActivity(intent);
+        }
+
+        return true;
     }
 }
