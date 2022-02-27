@@ -8,9 +8,11 @@
         <entry key="app/src/main/res/layout/activity_calculator.xml" value="0.20516304347826086" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/activity_music_player.xml" value="0.15520833333333334" />
         <entry key="app/src/main/res/layout/activity_test.xml" value="0.15520833333333334" />
         <entry key="app/src/main/res/layout/content_test.xml" value="0.15520833333333334" />
         <entry key="app/src/main/res/layout/fragment_first.xml" value="0.9638297872340426" />
+        <entry key="app/src/main/res/menu/mymenu.xml" value="0.15520833333333334" />
       </map>
     </option>
   </component>
